@@ -41,7 +41,7 @@ img {
 #about {
   margin: auto;
   display: block;
-  width: 40%;
+  width: auto;
   text-align: center;
 }
 #main {
@@ -53,6 +53,11 @@ img {
 #BACHeader {
   font-size: 60px;
   font-style: italic;
+  display: block;
+}
+#aboutInfo {
+  width: 45%;
+  margin: auto;
 }
 #schedule, #pricing, #contact {
   margin-left: 50px;
