@@ -1,5 +1,7 @@
 body {
   margin: 0px;
+  background-color: #33adff;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 #navbar-ul {
   position: fixed;
@@ -35,4 +37,41 @@ li a:hover:not(.active) {
 img {
   width: 100%;
   height: 50%;
+}
+#about {
+  margin: auto;
+  display: block;
+  width: 40%;
+  text-align: center;
+}
+#main {
+  background-color: #b3e0ff;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 30px;
+}
+#BACHeader {
+  font-size: 60px;
+  font-style: italic;
+}
+#schedule, #pricing, #contact {
+  margin-left: 50px;
+}
+#contact {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+#main > table, tr, td, th {
+  padding: 5px;
+}
+#footer {
+  background-color: #008ae6;
+}
+#footer > table {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+  border-spacing: 5px;
+  padding-bottom: 15px;
 }
